@@ -1,0 +1,36 @@
+input {
+    flex-grow: 1;
+    border: 1px solid black;
+    background: tomato;
+    color: white;
+    width: 80%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guess-container {
+    flex: 0 0 20%;
+    display: flex;
+    align-items: stretch;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    min-height: 20%;
+}
+
+.guess-container::before {
+    content: '';
+    display: table;
+    padding-top: 100%;
+}
+
+form {
+    margin: 0;
+}
+
+input {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}

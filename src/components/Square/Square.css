@@ -1,0 +1,11 @@
+.Square {
+    flex-grow: 1;
+    border: 1px solid black;
+    background: tomato;
+    color: white;
+    width: 18%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
